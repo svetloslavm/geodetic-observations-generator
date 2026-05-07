@@ -24,7 +24,14 @@ Open `index.html` in a web browser.
 
 ### Features
 
-- **Input**: Enter survey points (TPLAN code) with format: `POINT X Y Z` (one per line). Example: `110336 4778357.269 313482.704`
+- **Input**: Enter survey points (TPLAN code) with format:
+
+```txt
+POINT X Y Z
+110336 4777777.123 313333.123
+110337 4778888.123 313444.123
+   100 4779999.123 313555.123`
+
 - **Generate**: Click "Generate" to generate observations
 - **Output**: Generated \*.dpi format observations with 2 faces and measurements, intended for use in TPLAN.
 
@@ -32,3 +39,4 @@ Open `index.html` in a web browser.
 
 - **Target software**
   The generated \*.dpi observations are intended for use with TPLAN (ТПЛАН) – a specialized geodetic software application used in Bulgaria for processing and adjusting geodetic measurements in land surveying, cadastre, and construction projects.
+```
