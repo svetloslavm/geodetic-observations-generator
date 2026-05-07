@@ -33,6 +33,15 @@ POINT X Y Z
    100 4779999.123 313555.123
 ```
 
+- **Output**: *.dpi file
+
+```txt
+110336 Vi 1.555
+110337 Vs 1.300 R  51.7190 Z  99.9989 S 1116.533
+110337 Vs 1.300 R 251.7190 Z 300.0015 S 1116.533
+   100 Vs 1.300 R  51.7173 Z 100.0002 S 2233.067 *
+```
+
 - **Generate**: Click "Generate" to generate observations
 - **Output**: Generated \*.dpi format observations with 2 faces and measurements, intended for use in TPLAN.
 
