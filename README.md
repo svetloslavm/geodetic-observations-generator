@@ -40,7 +40,3 @@ POINT X Y Z
 
 - **Target software**
   The generated \*.dpi observations are intended for use with TPLAN (ТПЛАН) – a specialized geodetic software application used in Bulgaria for processing and adjusting geodetic measurements in land surveying, cadastre, and construction projects.
-
-```
-
-```
