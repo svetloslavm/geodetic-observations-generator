@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Geodetic Observation Generator</title>
+    <style>
+      #container {
+        font-size: 14px;
+        text-align: center;
+        margin: auto;
+      }
+
+      #container h1,
+      h2 {
+        margin-bottom: 10px;
+        color: #424242;
+      }
+
+      .layout {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+      }
+
+      .layout > div {
+        text-align: left;
+      }
+
+      .input-content,
+      .output-content {
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      .submit-button {
+        display: flex;
+        margin: auto;
+        cursor: pointer;
+        padding: 6px 10px;
+      }
+
+      @media (max-width: 768px) {
+        .layout {
+          flex-direction: column;
+          align-items: stretch;
+          gap: 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>Geodetic Observation Generator</h1>
+      <div class="layout">
+        <div>
+          <h2>Input</h2>
+          <textarea class="input-content" rows="30" cols="80" placeholder="[tplan code] X Y Z"></textarea>
+        </div>
+        <div>
+          <h2>Output (*.dpi)</h2>
+          <textarea
+          class="output-content"
+          rows="30"
+          cols="80"
+          disabled
+          ></textarea>
+          <button class="submit-button">Generate</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/config.js"></script>
+    <script src="src/utils.js"></script>
+    <script src="src/calculations.js"></script>
+    <script src="src/formatters.js"></script>
+    <script src="src/parser.js"></script>
+    <script src="src/observations.js"></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>
