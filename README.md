@@ -1,6 +1,6 @@
-# Land Surveying Generator
+# Geodetic Observations Generator
 
-A JavaScript-based generator for surveying measurements in geodesy.
+A JavaScript-based application for generating geodetic observations from coordinate points, including distances, angles, and surveying data for cadastral and engineering workflows.
 
 ## Project Structure
 
